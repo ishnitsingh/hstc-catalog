@@ -474,12 +474,11 @@ opacity: 0.9;
 
 .vendor-list {
   line-height: 2rem;
-  /* padding: 20px; */
+  padding: 20px;
   border: black 1px dotted;
   width: 70%;
   margin-left: 20px;
   margin-top: 20px;
-  text-align: center;
 
 }
 
@@ -503,7 +502,6 @@ opacity: 0.9;
   float: right;
   margin-top: 11px;
   margin-right: 136px;
-  background: black;
   color: white;
   
 }
@@ -594,17 +592,5 @@ height: 100px;
   border-radius: none;
 }
 
-.main-v-list .t-v-list{
-  margin-left: 300px;
-
-  
-}
-
-.vendor-list h2{
-  border-bottom: 1px dotted black;
-  /* line-height: 3rem; */
-  margin: 0;
-  padding: 0;
-}
 
 

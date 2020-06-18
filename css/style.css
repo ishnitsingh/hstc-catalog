@@ -6,7 +6,7 @@
 
 body{  
   line-height: 1.5rem;
-  background: url(../palm-trees-at-night-258154.jpg)  no-repeat center center/cover;
+  /* background: url(../palm-trees-at-night-258154.jpg)  no-repeat center center/cover; */
   width: 100%;
   height: 1fr;
 }
@@ -31,7 +31,7 @@ body{
   justify-items: center;
   align-items: center;
   width: 50px;
-  margin-left: 20px;
+  margin-right: 15px;
 }
 
 .nav-part{
@@ -191,38 +191,38 @@ input [type="checkbox"] {
 
 .item {
   width: 100%;
-  background: rgba(235, 219, 219, 0.8);
+  /* background: rgba(235, 219, 219, 0.8); */
   /* margin-top: 10px; */
   margin-left: 10px;
   
 }
 
 .item label {
-  line-height: 3rem;
+  line-height: 2rem;
   cursor: pointer;
   /* padding-right: 130px; */
 }
 
 .item  input:checked ~ ul  {
   display: block;
+  margin-left: 20px;
 }
-.item input {
-  
-display: none;
-}
+
 
 
 .multi-level{
   display: block;
+  margin-top: 19px;
   /* text-align: center; */
   justify-content: space-between;
-  
-  
-  
+  margin-left: 10px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+}
 }
 
 .multi-level label{
-  font-size: 1.7rem;
+  /* font-size: 1.7rem; */
   text-align: center;
 }
 
@@ -235,7 +235,7 @@ display: none;
 
 .box2{
   display: grid;
-  grid-template-columns: repeat(4, 270px);
+  grid-template-columns: repeat(4, 300px);
   grid-auto-rows: 400px;
   
   grid-gap: 10px;
@@ -254,6 +254,7 @@ display: none;
 }
 
 .box2 img{
+  margin-top: 20px;
   width: 200px;
   height: 200px;
   border-radius: 10px;
@@ -262,6 +263,7 @@ display: none;
 
 .card p{
   font-size: 1.3rem;
+  margin-bottom: 0px;
 }
 
 .quantity-field{
@@ -272,24 +274,34 @@ display: none;
 }
 
 .card .add{
-  padding-right: 50px;
-  height: 30px;
+  padding-right: 35px;
+  height: 35px;
 
 }
 
-
-.card .add:hover{
-  background: rgba(235, 219, 219, 0.8);
+.card-b{
+  margin-bottom: 20px;
 }
+
+
 .card .add a {
-  margin-left: 40px;
+  margin-left: 22px;
+  position: relative;
   text-decoration: none;
-  color: #333;
+  color: #fff;
+  bottom: 1px;
 }
 
 .card input{
-  width: 50px;
+  width: 45px;
+  height: 30px;
   float: right;
+  margin-left: 10px;
+  margin-top: 11px;
+}
+
+
+
 }
 
 
@@ -312,4 +324,51 @@ font-weight: bold;
 .copyright p{
   text-align: center;
   padding-right: 20px;
+}
+
+/* Bootstrap */
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(37, 33, 33, 0.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color:  rgba(37, 33, 33, 0.8);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgba(187, 23, 23, 0.8);
+}
+
+.item .form-control-sm {
+  height: calc(1.5em + .5rem + 2px);
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem;
+  width: 90%;
+}
+
+.item .form-control {
+  display: block;
+  width: 90%;
+}
+
+.item .btn-outline-info {
+  color: #17a2b8;
+  border-color: #17a2b8;
+  width: 90%;
+  margin-bottom: 10px;
 }

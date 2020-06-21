@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+body {
+  font-family: "Roboto Slab", serif !important;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background: #fff !important;
+  padding: 0 16px !important;
+  height: 60px !important;
+}
+
+.sidenav li img {
+  width: 100px !important;
+  height: 100px !important;
+  margin-left: 30% !important;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.sidenav li {
+  margin: auto !important;
+}
+
+.navbar-brand {
+  color: #333 !important;
+}
+
+.navbar ul li:hover {
+  background: #e91e63;
+  /* height: 55px; */
+  justify-items: center;
+
+  /* transform: scale(1); */
+}
+
+.margin {
+  margin: 0 30px;
+}
+
+.margin a {
+  color: black !important;
+}
+
+.margin img {
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 50px;
+}
+
+.nav-wrapper {
+  height: 64px !important;
+  box-shadow: none !important;
+}
+.logo-tex {
+  margin-left: 60px;
+}
+.nav {
+  background: white !important;
+  height: 60px !important;
+}
+
+.navbar ul li a:hover {
+  color: #fff !important;
+}
+
+.navbar ul li {
+  transition: 0.8s;
+}
+
+.navbar ul li a {
+  color: #333 !important;
+  padding: 18px !important;
+}
+
+.navbar-nav {
+  background: #fff;
+  margin-right: 20px;
+  /* margin-top: 17px !important; */
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.imge {
+  /* height: 50px; */
+  width: 60px;
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#small {
+  z-index: 999;
+}
+
+.navbar-toggler-icon {
+  background-color: #333 !important;
+}
+.collapse {
+  width: 540px !important;
+}
+
+.logo-tex1 {
+  margin-left: 80px;
+}
+
+.nav-wrapper {
+  opacity: 5 !important;
+  z-index: 99 !important;
+  background: white;
+}
+
+/* ----------------------------------------------------------head-image------------------------------------------------------------ */
+
+.main3 {
+  padding-top: 20px !important;
+}
+/* -------------------------------------------------------------footer------------------------------------------------------ */
+
+footer {
+  background: #e91e63;
+  color: #fff;
+  text-align: center;
+
+  margin-top: 100px;
+}

@@ -235,7 +235,7 @@ body {
 }
 
 .container {
-  border-bottom: black 1px solid;
+  /* border-bottom: black 1px solid; */
 }
 
 .img14 {
@@ -582,27 +582,486 @@ th {
 .trans {
   transition-duration: 2s !important;
 }
-/* -------------------------------------------------search-inside-m------------------------------ */
+/* -------------------------------------------------image-inside-m------------------------------ */
 .thum {
-  width: 600px;
-  height: 500px;
+  width: 450px;
+  height: 350px;
+  margin-left: 70px;
+  padding-top: 20px;
+}
+.slider-head {
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 550px;
 }
 .thum .slider-for img {
-  width: 600px;
-  height: 500px;
+  width: 450px;
+  height: 350px;
 }
 
 .thum .slider-nav img {
-  width: 50px;
-  height: 50px;
+  /* width: 40px !important; */
+  height: 80px;
+  padding: 0 20px;
 }
 .slider-nav .slick-next::before,
 .slider-nav .slick-prev::before,
 .slider-for .slick-next::before,
 .slider-for .slick-prev::before {
   display: none !important;
+  /* visibility: hidden; */
 }
 
 .slider-nav {
   display: flex !important;
+}
+
+.text45 h5 {
+  font-size: 21px;
+  /* font-weight: bold; */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: normal;
+}
+
+.text45 p {
+  font-size: 13px;
+  margin-top: 0;
+  padding-top: 0;
+  float: right;
+}
+
+.head-text {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.d-list ul li {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+.main-text {
+  /* position: absolute;
+  top: 50px;
+  right: 20px; */
+  overflow: hidden;
+}
+
+.slick-slide {
+  margin-top: 9px !important;
+}
+
+.d-list a button span {
+  /* float: right; */
+  font-size: 20px;
+  opacity: 5;
+  margin-left: 5px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.d-list a {
+  align-items: center;
+}
+.d-list a button {
+  width: 170px !important;
+  align-items: center;
+  float: left !important;
+  /* text-align: left; */
+  margin-left: 40px;
+  margin-top: 10px;
+  /* margin-bottom: 100px !important; */
+}
+
+.d-list a button p {
+  margin: 0;
+  margin-top: -5px;
+}
+
+.table22 {
+  /* width: 52%; */
+  /* margin-right: 20px; */
+}
+.table22 .head {
+  border-bottom: 1px #ccc solid;
+  width: 100%;
+
+  /* padding-left: 18px; */
+  /* margin-left: 18px; */
+}
+.table22 h5 {
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  margin-left: 18px;
+  margin-right: 90px;
+  padding-right: 10px;
+  margin-top: 20px !important;
+}
+
+.table22 .head p {
+  margin: 0;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 90px;
+}
+
+.table22 .product-detail {
+  margin-left: 20px;
+  /* margin-top: 20px; */
+}
+.main-p {
+  display: grid;
+  grid-template-columns: 211px 394px;
+}
+.perticular p {
+  margin: 0;
+  font-size: 12px;
+  padding: 0px 1px 3px 3px;
+  padding-left: 15px;
+  border-bottom: 1px #ccc dotted;
+  background: rgb(240, 240, 240);
+  /* width: 90%; */
+  /* margin-left: 20px; */
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.perticular1 p {
+  margin: 0;
+  font-size: 12px;
+  padding: 0px 1px 3px 3px;
+  padding-left: 15px;
+  border-bottom: 1px #ccc dotted;
+  background: rgb(240, 240, 240);
+  margin-top: 10px;
+  border-right: 1px #ccc dotted;
+}
+/* width: 90%; */
+/* margin-left: 20px; */
+
+.rel {
+  position: relative;
+}
+
+.rel1 {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  /* width: 80%; */
+}
+.perticular2 p {
+  margin: 0;
+  font-size: 12px;
+  padding: 0px 1px 3px 3px;
+  padding-left: 15px;
+  border-bottom: 1px #ccc dotted;
+  border-right: 1px #ccc dotted;
+  background: rgb(240, 240, 240);
+  /* width: 90%; */
+  /* margin-left: 20px; */
+  margin-top: 10px;
+}
+.perticular3 p {
+  margin: 0;
+  font-size: 12px;
+  padding: 0px 1px 3px 3px;
+  padding-left: 15px;
+  border-bottom: 1px #ccc dotted;
+  background: rgb(240, 240, 240);
+  margin-top: 10px;
+  border-right: 1px #ccc dotted;
+}
+
+.container28 {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.arrow-rig {
+  width: 100%;
+}
+
+.rel2 {
+  position: absolute;
+  top: 130px;
+  right: 0;
+  /* width: 80%; */
+}
+
+.list-body-p {
+  display: grid;
+  grid-template-columns: 208px 344px 211px 344px;
+}
+
+.perticular22 p,
+.perticular33 p {
+  margin: 0;
+  font-size: 12px;
+  padding: 0px 1px 3px 3px;
+  padding-left: 15px;
+  border-bottom: 1px #ccc dotted;
+  background: rgb(240, 240, 240);
+  margin-top: 10px;
+}
+
+.perticular22 p {
+  border-right: 1px #ccc dotted;
+  z-index: 9;
+  margin-left: 20px;
+}
+
+.collapsible-header p {
+  width: 100%;
+}
+
+.collapsible-header i {
+  padding-top: 13px !important;
+}
+
+/* <!-- -----------------------------------------------mobile-version------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-mid------------------------------------------ --> */
+/* -------------------------------------------------image-inside-mid------------------------------ */
+.thum1 {
+  width: 360px;
+  height: 350px;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+.slider-head1 {
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* height: 550px; */
+  height: 550px !important;
+}
+.thum1 .slider-for1 img {
+  width: 360px;
+  height: 350px;
+}
+
+.thum1 .slider-nav1 img {
+  /* width: 40px !important; */
+  height: 60px;
+  padding: 0 10px;
+}
+
+.slider-nav1 .slick-next::before,
+.slider-nav1 .slick-prev::before,
+.slider-for1 .slick-next::before,
+.slider-for1 .slick-prev::before {
+  display: none !important;
+  /* visibility: hidden; */
+}
+
+.main-taxt1 {
+  /* float: right; */
+
+  /* width: 50%; */
+  margin-top: 30px;
+
+  padding-right: 10px;
+}
+
+.main-taxt1 h5 {
+  font-size: 19px;
+  width: 100%;
+}
+
+.main-taxt1 .d-list a button {
+  margin-left: 15px;
+}
+
+.table23 {
+  /* width: 52%; */
+  /* margin-right: 20px; */
+}
+.table23 .head {
+  border-bottom: 1px #ccc solid;
+  width: 100%;
+
+  /* padding-left: 18px; */
+  /* margin-left: 18px; */
+}
+.table23 h5 {
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  margin-left: 18px;
+  margin-right: 90px;
+  padding-right: 10px;
+  margin-top: 20px !important;
+}
+
+.table23 .head p {
+  margin: 0;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 90px;
+}
+
+.table23 .product-detail {
+  margin-left: 20px;
+  /* margin-top: 20px; */
+}
+
+.main-p1 {
+  display: grid;
+  grid-template-columns: 161px 220px;
+}
+
+.list-body-p1 {
+  display: grid;
+  grid-template-columns: 161px 195px 161px 1fr;
+}
+
+/* <!-- -----------------------------------------------mobile-version------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ -->
+<!-- -----------------------------------------------mobile-version-small------------------------------------------ --> */
+/* -------------------------------------------------image-inside-small------------------------------ */
+.thum2 {
+  width: 100%;
+  height: 360px;
+  /* margin-left: 10px; */
+  padding-top: 20px;
+}
+.slider-head2 {
+  /* position: relative; */
+  width: 100%;
+  /* height: 550px; */
+  height: 550px !important;
+}
+.thum2 .slider-for2 img {
+  width: 100%;
+  height: 360px;
+}
+
+.thum2 .slider-nav2 img {
+  /* width: 40px !important; */
+  height: 80px;
+  padding: 0 10px;
+}
+
+.slider-nav2 .slick-next::before,
+.slider-nav2 .slick-prev::before,
+.slider-for2 .slick-next::before,
+.slider-for2 .slick-prev::before {
+  display: none !important;
+  /* visibility: hidden; */
+}
+
+.btnn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* height: 50px; */
+  justify-items: center;
+}
+
+.main-list12 {
+  height: 400px;
+  width: 100vw;
+  overflow: hidden;
+}
+.table231 {
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.main-p3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-right: 1px #ccc dotted;
+  z-index: 999 !important;
+  /* padding-left: 20px; */
+}
+
+.perticular122 p,
+.perticular111 p {
+  margin: 0;
+  font-size: 12px;
+  padding: 0px 1px 3px 3px;
+  padding-left: 15px;
+  border-bottom: 1px #ccc dotted;
+  background: rgb(240, 240, 240);
+  margin-top: 10px;
+}
+.table23 .head121 {
+  border-bottom: 1px #ccc solid;
+  width: 93%;
+}
+
+.product-detail123 .head {
+  margin-left: 20px;
+}
+
+.product-detail123 .arrow-rig {
+  width: 30px;
+}
+
+.product-detail123 .arrow-rig i {
+  padding-top: 30px;
+}
+
+.collapsible-body {
+  padding: 0 !important;
 }
